@@ -1,0 +1,5 @@
+Icon*
+.DS_Store
+.python-version
+find . -size +50MB | cat >> .gitignore
+*.ipynb_checkpoints*
