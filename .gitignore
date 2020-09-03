@@ -1,5 +1,6 @@
 Icon*
 .DS_Store
 .python-version
-find . -size +50MB | cat >> .gitignore
+find . -type f -size +50M | cat >> .gitignore
 *.ipynb_checkpoints*
+1. MOMA/Data/Artworks_Edits.csv
