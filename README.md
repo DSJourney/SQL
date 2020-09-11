@@ -1,15 +1,23 @@
 # SQL Exercises Repository
 
-**About:** In this repository I add some code related to SQL. In the notebooks found here I practice SQL queries. I try to take interesting datasets to make the learning more interesting. Currently there is only 1 dataset (see below).
+**About:** In this repository I have added some notebooks with queries that helped me practice SQL
 
-**SQL Flavor:** I am using PostgreSQL in these exercises.
+**SQL Flavor:** I am using PostgreSQL.
+
+**Content:**
+<ol>
+  <li>Museum of Modern Art (MoMA)</li>
+  <li>Coding Website Exercises</li>
+  <li>DVD Rental Company</li>
+</ol>
 
 <br>
 <br>
 
 ## 1. Museum of Modern Art (MoMA)
 
-![Image of MoMA](https://github.com/DSJourney/SQL-Practice/blob/master/img/MoMA.jpg)
+<img src="https://github.com/DSJourney/SQL-Practice/blob/master/img/MoMA.jpg" width="500">
+
 
 **Picture:** [Arquitectural Digest](https://www.architecturaldigest.com/story/new-york-iconic-museum-of-modern-art-completed-450-million-makeover)
 
@@ -42,3 +50,25 @@ The idea is to continue improving and adding new commands and datasets. Any reco
 
 **References**
 ###### 1. Robot, Open Data. (2020). MoMA Collection - Automatic Monthly Update [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3924816 <br>
+
+------------------
+<br>
+<br>
+
+## 2. Coding Website Exercises
+
+<img src="https://github.com/DSJourney/SQL/blob/master/2.%20Coding%20Exercise%20Websites/img/HackerRank.png" width="150"> <img src="https://github.com/DSJourney/SQL/blob/master/2.%20Coding%20Exercise%20Websites/img/LeetCode.png" width="150">
+
+**Disclaimer:** the exercises in these notebooks come from coding websites. Currently from two main websites: <a href=https://www.hackerrank.com/domains/sql> Hackerrank</a> and <a href=https://leetcode.com/>Leetcode</a>. These two website are great to practice coding interviews. I sincerely recommend anyone trying to learn to use those. Their GUI are very intuitive and you learn a lot from other people doing the same exercises.
+<br>
+
+------------------
+<br>
+<br>
+
+## 3. DVD Rental Company
+
+<img src="https://github.com/DSJourney/SQL/blob/master/3.%20Dvd%20Rental/img/schema.png" width="600"> 
+
+**Dataset:** I have downloaded the dataset from <a href=https://www.postgresqltutorial.com/postgresql-sample-database/> Postgresqltutorial.com</a>. That website has great resources to learn Postgresql. The queries came from questions I found on Zachary Thomas' great document <a href=https://quip.com/2gwZArKuWk7W>The Best Medium-Hard Data Analyst SQL Interview Questions</a> or from questions I wanted answered for myself.
+
