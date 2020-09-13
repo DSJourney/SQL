@@ -4,3 +4,5 @@ Icon*
 find . -type f -size +50M | cat >> .gitignore
 *.ipynb_checkpoints*
 1. MOMA/Data/Artworks_Edits.csv
+database.ini
+__pycache__
