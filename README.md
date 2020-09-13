@@ -33,15 +33,15 @@ The markdown on the jupyter notebooks does not show well on GitHub. To see the d
 
 <br>
 
-With this first exercise I went over the following commands (the levels are completely made up by me to provide myself a sense of accomplishment):
+With this first exercise I went over the following commands (the levels are completely made up by me):
 
 Level | Commands
 ------------ | -------------
-L1|  SELECT / FROM / COUNT / LIMIT / DISTINCT / WHERE / AND / BETWEEEN / IN / NULL or NOT NULL / LIKE or NOT LIKE
-L2| Aggregate Functions (AVG, SUM, MIN, MAX) / ROUND / Aliases / ORDER BY / GROUP BY / HAVING
-L3| JOIN, Arithmetic, CASE statements, COALESCE, OFFSET
-L4| Nested queries, CTEs, LENGTH, CUBE, UPDATE, SET, RETURNING
-L5| Window functions (OVER, PARTITION), Random number of rows, Datatypes
+L1| `SELECT` / `FROM` / `COUNT` / `LIMIT` / `DISTINCT` / `WHERE` / `AND` / `BETWEEEN` / `IN` / `NULL` or `NOT NULL` / `LIKE` or `NOT LIKE`
+L2| Aggregate Functions (`AVG`, `SUM`, `MIN`, `MAX`) / `ROUND` / Aliases / `ORDER BY` / `GROUP BY` / `HAVING`
+L3| `JOIN`, Arithmetic, `CASE`, `COALESCE`, `OFFSET`
+L4| Nested queries, CTEs, `LENGTH`, `CUBE`, `UPDATE`, `SET`, `RETURNING`
+L5| Window functions (`OVER`, `PARTITION BY`), Random number of rows, Datatypes
 
 The idea is to continue improving and adding new commands and datasets. Any recommendation on exercises or in improving the queries in this exercise will be welcomed.
 <br>
@@ -72,3 +72,12 @@ The idea is to continue improving and adding new commands and datasets. Any reco
 
 **Dataset:** I have downloaded the dataset from <a href=https://www.postgresqltutorial.com/postgresql-sample-database/> Postgresqltutorial.com</a>. That website has great resources to learn Postgresql. The queries came from questions I found on Zachary Thomas' great document <a href=https://quip.com/2gwZArKuWk7W>The Best Medium-Hard Data Analyst SQL Interview Questions</a> or from questions I wanted answered for myself.
 
+Some of the interesting exercises and the critical commands used were:
+
+**Calculations** | **Commands**
+------------ | -------------
+Median |  `PERCENTILE_CONT(0.5) WITHIN GROUP`
+Month over Month Calculations| Self-join with `DATE_TRUNC`
+MAU, retained users, churned users| Self-joins, `DATE_TRUC`, ctes
+Cummulative Sum | cte with `OVER (ROWS BETWEEN UNBOUNDED PRECEDENT AND CURRENT ROW`
+7 day Moving Avg | `AVG(count) OVER (ROWS BETWEEN 6 PRECEDING AND CURRENT ROW)`
