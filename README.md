@@ -6,7 +6,7 @@
 
 **Content:**
 <ol>
-  <li><a href=https://nbviewer.jupyter.org/github/DSJourney/SQL-Practice/blob/master/1.%20SQL_Exercise_MOMA.ipynb>Museum of Modern Art (MoMA)</a></li>
+  <li><a href=https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/1.%20MOMA/1.%20SQL_Exercise_MOMA.ipynb>Museum of Modern Art (MoMA)</a></li>
   <li>Coding Website Exercises: <a href=https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/2.%20Coding%20Exercise%20Websites/HackerRank_Exercises.ipynb#easy>HackerRank</a>, <a href=https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/2.%20Coding%20Exercise%20Websites/Leetcode_Exercises.ipynb>Leetcode</a></li>
   <li><a href=https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/3.%20Dvd%20Rental/dvd.ipynb>DVD Rental Company</a></li>
   <li><a href=https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/4.%20DataCamp%20/DataCamp.ipynb>Datacamp Exercises</a></li>  
@@ -28,7 +28,7 @@
 <br>
 
 The markdown on the jupyter notebooks does not show well on GitHub. To see the document with the correct markdown you have several options:<br>
-1) See it on [NBviewer](https://nbviewer.jupyter.org/github/DSJourney/SQL-Practice/blob/master/1.%20SQL_Exercise_MOMA.ipynb)<br>
+1) See it on [NBviewer](https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/1.%20MOMA/1.%20SQL_Exercise_MOMA.ipynb)<br>
 2) See it as [HTML](https://htmlpreview.github.io/?https://github.com/DSJourney/SQL-Practice/blob/master/1.%20SQL_Exercise_MOMA.html)<br>
 3) Download it and open it with Jupyter Lab<br>
 
@@ -87,7 +87,6 @@ Month over Month Calculations| Self-join with `DATE_TRUNC`
 MAU, retained users, churned users| Self-joins, `DATE_TRUC`, ctes
 Cummulative Sum | cte with `OVER (ROWS BETWEEN UNBOUNDED PRECEDENT AND CURRENT ROW`
 7 day Moving Avg | `AVG(count) OVER (ROWS BETWEEN 6 PRECEDING AND CURRENT ROW)`
-<br>
 
 ------------------
 <br>
