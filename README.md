@@ -6,9 +6,10 @@
 
 **Content:**
 <ol>
-  <li>Museum of Modern Art (MoMA)</li>
-  <li>Coding Website Exercises</li>
-  <li>DVD Rental Company</li>
+  <li><a href=https://nbviewer.jupyter.org/github/DSJourney/SQL-Practice/blob/master/1.%20SQL_Exercise_MOMA.ipynb>Museum of Modern Art (MoMA)</a></li>
+  <li>Coding Website Exercises: <a href=https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/2.%20Coding%20Exercise%20Websites/HackerRank_Exercises.ipynb#easy>HackerRank</a>, <a href=https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/2.%20Coding%20Exercise%20Websites/Leetcode_Exercises.ipynb>Leetcode</a></li>
+  <li><a href=https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/3.%20Dvd%20Rental/dvd.ipynb>DVD Rental Company</a></li>
+  <li><a href=https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/4.%20DataCamp%20/DataCamp.ipynb>Datacamp Exercises</a></li>  
 </ol>
 
 <br>
@@ -62,6 +63,9 @@ The idea is to continue improving and adding new commands and datasets. Any reco
 **Disclaimer:** the exercises in these notebooks come from coding websites. Currently from two main websites: <a href=https://www.hackerrank.com/domains/sql> Hackerrank</a> and <a href=https://leetcode.com/>Leetcode</a>. These two website are great to practice coding interviews. I sincerely recommend anyone trying to learn to use those. Their GUI are very intuitive and you learn a lot from other people doing the same exercises.
 <br>
 
+HackerRank Exercises on [NBviewer](https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/2.%20Coding%20Exercise%20Websites/HackerRank_Exercises.ipynb#easy)<br>
+Leetcode Exercises on [NBviewer](https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/2.%20Coding%20Exercise%20Websites/Leetcode_Exercises.ipynb)<br>
+
 ------------------
 <br>
 <br>
@@ -72,6 +76,8 @@ The idea is to continue improving and adding new commands and datasets. Any reco
 
 **Dataset:** I have downloaded the dataset from <a href=https://www.postgresqltutorial.com/postgresql-sample-database/> Postgresqltutorial.com</a>. That website has great resources to learn Postgresql. The queries came from questions I found on Zachary Thomas' great document <a href=https://quip.com/2gwZArKuWk7W>The Best Medium-Hard Data Analyst SQL Interview Questions</a> or from questions I wanted answered for myself.
 
+DVD Rental Company Exercises on [NBviewer](https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/3.%20Dvd%20Rental/dvd.ipynb)<br>
+
 Some of the interesting exercises and the critical commands used were:
 
 **Calculations** | **Commands**
@@ -81,3 +87,38 @@ Month over Month Calculations| Self-join with `DATE_TRUNC`
 MAU, retained users, churned users| Self-joins, `DATE_TRUC`, ctes
 Cummulative Sum | cte with `OVER (ROWS BETWEEN UNBOUNDED PRECEDENT AND CURRENT ROW`
 7 day Moving Avg | `AVG(count) OVER (ROWS BETWEEN 6 PRECEDING AND CURRENT ROW)`
+<br>
+
+------------------
+<br>
+<br>
+
+## 4. DataCamp Exercises
+
+<img src="https://github.com/DSJourney/SQL/blob/master/4.%20DataCamp%20/img/datacamp-vector-logo.png" width="600"> 
+
+**Dataset:** [DataCamp is a website](datacamp.com) with courses on different programming languages. It includes several courses on SQ ranging from beginner to advanced. I have been doing some of them lately and they are great. I took the opportunity and wrote down they queries I found more interesting in these notebooks to keep them close for the future. Here I will be adding a list of the most interesting exercises I came across while doing the courses. Needless to say, I really recommend [DataCamp](datacamp.com) for anyone who is trying to learn programming. 
+
+DataCamp Exercises on [NBviewer](https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/4.%20DataCamp%20/DataCamp.ipynb)<br>
+
+Some of the interesting exercises were:
+
+**Delivr Company**
+<ol>
+  <li>Revenue, Cost, Profit</li>
+  <li>Registration and Active Users</li>
+  <li>Running Total</li>
+  <li>Monthly Active Userst</li>
+  <li>Growth Over Time</li>
+  <li>Unit Economics
+    <ul>
+      <li>Average Revenue per User (ARPU)</li>
+      <li>Weekly Average Revenue per User</li>
+    </ul>
+    </li>
+  <li>Histograms</li>
+  <li>Percentiles</li>
+  <li>Working with Dates</li>
+  <li>Ranking</li>
+  <li>Pivoting (using Crosstab)</li>
+</ol>
