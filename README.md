@@ -27,10 +27,9 @@
 
 <br>
 
-The markdown on the jupyter notebooks does not show well on GitHub. To see the document with the correct markdown you have several options:<br>
+The markdown on the jupyter notebooks does not show well on GitHub. To see the document with the correct markdown you have two options:<br>
 1) See it on [NBviewer](https://nbviewer.jupyter.org/github/DSJourney/SQL/blob/master/1.%20MOMA/1.%20SQL_Exercise_MOMA.ipynb)<br>
-2) See it as [HTML](https://htmlpreview.github.io/?https://github.com/DSJourney/SQL-Practice/blob/master/1.%20SQL_Exercise_MOMA.html)<br>
-3) Download it and open it with Jupyter Lab<br>
+2) Download it and open it with Jupyter Lab or Jupyter Notebook<br>
 
 <br>
 
